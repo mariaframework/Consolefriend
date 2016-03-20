@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+// application.php
+
+require '../vendor/autoload.php';
+
+define('DIR_CONSOLE',__DIR__.'/src/App/');
+
+$friend = new \MariaFW\FriendConsole\Console();
+$friend->run();
+
+
+
+
